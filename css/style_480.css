@@ -558,13 +558,13 @@ footer {
 
 /*----------------MENU DOWN-----------*/
 
-.menu__down {
+.footer_menu {
   width: 98%;
   margin-left: 13px;
   padding-top: 43px;
 }
 
-.menu__down__item {
+.footer_menu__item {
   font-family: "LeagueGothic-Regular", sans-serif;
   text-transform: uppercase;
   list-style: none;
@@ -574,11 +574,11 @@ footer {
   text-shadow: 2px 2px 1px #4b494e;
 }
 
-.menu__down__item:first-child {
+.footer_menu__item:first-child {
   padding-left: 0px;
 }
 
-.menu__down__link {
+.footer_menu__link {
   color: #ffffff;
   display: block;
   text-decoration: none;

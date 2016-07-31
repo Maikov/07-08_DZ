@@ -94,7 +94,7 @@ header {
   border-bottom: 2px solid #edbfff;
 }
 
-.menu__link__line {
+.menu__link-line {
   text-decoration: none;
   color: #ffffff;
   border-bottom: 2px solid #edbfff;
@@ -508,13 +508,13 @@ footer {
 
 /*----------------MENU DOWN-----------*/
 
-.menu__down {
+.footer_menu {
   padding-top: 43px;
   width: 75%;
   margin-left:19px;
 }
 
-.menu__down__item {
+.footer_menu__item {
   font-family: "LeagueGothic-Regular", sans-serif;
   text-transform: uppercase;
   list-style: none;
@@ -524,11 +524,11 @@ footer {
   text-shadow: 2px 2px 1px #4b494e;
 }
 
-.menu__down__item:first-child {
+.footer_menu__item:first-child {
   padding-left: 0px;
 }
 
-.menu__down__link {
+.footer_menu__link {
   color: #ffffff;
   display: inline-block;
   text-decoration: none;
