@@ -1,19 +1,16 @@
 @font-face {
   font-family: "LeagueGothic-Regular";
-  src: url("../fonts/LeagueGothic-Regular.otf"),
-       url("../fonts/LeagueGothic-Regular.eot");/*для Internet Explorer*/
+  src: url("../fonts/LeagueGothic-Regular.otf");
 }
 
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("../fonts/2209.ttf"),
-       url("../fonts/2209.eot");/*для Internet Explorer*/
+  src: url("../fonts/2209.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-ExtraBold";
-  src: url("../fonts/OpenSans-ExtraBold.ttf"),
-       url("../fonts/OpenSans-ExtraBold.eot");/*для Internet Explorer*/
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
@@ -21,7 +18,8 @@
   src: url("../fonts/Georgia Italic.ttf");
 }
 
-/*----------------320px-----------*/
+
+/*----------------768px-----------*/
 
 @media screen and (max-width: 479px) {
 
@@ -29,10 +27,6 @@
 {
   margin: 0;
   padding: 0;
-}
-
-footer, header, menu, nav, section { 
-  display: block;
 }
 
 html {

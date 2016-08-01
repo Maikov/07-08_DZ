@@ -1,19 +1,18 @@
+
+
 @font-face {
   font-family: "LeagueGothic-Regular";
-  src: url("../fonts/LeagueGothic-Regular.otf"),
-       url("../fonts/LeagueGothic-Regular.eot");/*для Internet Explorer*/
+  src: url("../fonts/LeagueGothic-Regular.otf");
 }
 
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("../fonts/2209.ttf"),
-       url("../fonts/2209.eot");/*для Internet Explorer*/
+  src: url("../fonts/2209.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-ExtraBold";
-  src: url("../fonts/OpenSans-ExtraBold.ttf"),
-       url("../fonts/OpenSans-ExtraBold.eot");/*для Internet Explorer*/
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
@@ -29,10 +28,6 @@
 {
   margin: 0;
   padding: 0;
-}
-
-footer, header, menu, nav, section { 
-  display: block;
 }
 
 html {
@@ -91,11 +86,10 @@ header {
   padding-left: 20px;
   padding-right: 19px;
   text-shadow: 2px 2px 1px #5e5762;  
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#5e5762, Direction=135, Strength=4); 
 }
 
 .menu__item--h:first-child {
-  padding-left: 0px;
+  padding-left: -0px;
 }
 .menu__item--h:last-child {
   padding-right: 0px;
@@ -105,7 +99,7 @@ header {
 .menu__link {
   color: #ffffff;
   text-decoration: none;
-  padding: 0 3px 0 4px;
+  padding: 0 4px 0 4px;
   height: 100%;
 }
 
@@ -117,7 +111,7 @@ header {
 .menu__link-line {
   text-decoration: none;
   color: #ffffff;
-  padding: 0 4px 0 4px;
+  padding: 0 5px 0 5px;
   border-bottom: 2px solid #edbfff;
 }
 
@@ -158,7 +152,6 @@ header {
 
 .h1, .h3, .description {
   text-shadow: 0px 1px 3px #3c343d;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#3c343d, Direction=135, Strength=4);
 }
 
 .picture_box {
@@ -183,10 +176,6 @@ header {
   height: 17px;
   margin-right: 5px;
   background: rgba(0,0,0,0.3);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%; 
   border-radius: 50%;
   position: relative;
   box-sizing: border-box;
@@ -200,12 +189,8 @@ header {
   width: 11px;
   height: 11px;
   background-image: linear-gradient(to top, #d4d4d4 0%, white 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
   border: 1px solid white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   box-sizing: border-box;
 }
@@ -217,7 +202,6 @@ header {
   width: 100%;
   height: 339px;  
   background: linear-gradient(to top, #33253a, #745083);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
   border-bottom: 1px solid #1d2f37;
 }
 
@@ -272,13 +256,11 @@ header {
 .col__h2 {
   font: 30px/30px "LeagueGothic-Regular", sans-serif;
   text-shadow: 0.5px 0.9px 0 #0f1518;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#0f1518, Direction=135, Strength=4);
 }
 
 .col__p  {
   font: 16px/24px "OpenSans-Light", sans-serif;
   text-shadow: 0.5px 0.9px 0 #0f1518;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#0f1518, Direction=135, Strength=4);
   margin-top: 7px;
 }
 
@@ -288,14 +270,12 @@ header {
   display: block;
   text-decoration: none;
   text-shadow: 2px 2px 1px #000; 
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#000, Direction=135, Strength=4);
   text-align: right;
   margin: 18px 0px 0 0;
 }
 
 .read_more_1 {
   text-shadow: 0px 0px 10px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
   margin: 18px 0px 0 0;
 }
 
@@ -304,7 +284,6 @@ header {
   color: #fff;
   display: block;
   text-shadow: 0px 0px 10px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
 }
 
 /*----------------MAIN SECTION-----------*/
@@ -375,9 +354,6 @@ header {
   border: 1px solid #e6e6e6;
   box-shadow: 1px 1.7px 0 #fff;
   background-color: #fff;
-    -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   position: relative;
   box-sizing: border-box;
@@ -391,7 +367,6 @@ header {
   width: 13px;
   height: 13px;
   background-image: linear-gradient(to top, #454545 0%, #6a6a6a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
   border: 1px solid #454545;
   border-radius: 50%;
   box-sizing: border-box;
@@ -409,8 +384,7 @@ header {
 .updates__h2 {
   font: 30px "LeagueGothic-Regular", sans-serif;
   color: #454545;
-  text-shadow: -1px 1px 1px #a5a5a5;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#a5a5a5, Direction=135, Strength=4);
+  text-shadow: -1px 1px 1px #a5a5a5; 
 }
 
 .line {
@@ -430,16 +404,14 @@ header {
   color: #454545;
   display: block;
   text-align: left;
-  text-shadow: -1px 1px 1px #a5a5a5;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#a5a5a5, Direction=135, Strength=4);
+  text-shadow: -1px 1px 1px #a5a5a5; 
 }
 
 .updates__p {
   font: 16px "OpenSans-Light", sans-serif;
   color: #454545;
   padding: 3px 0 0 66px;
-  text-shadow: -0.5px 0.5px 1px #a5a5a5;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#a5a5a5, Direction=135, Strength=4);
+  text-shadow: -0.5px 0.5px 1px #a5a5a5; 
 }
 
 .read_more_2 {
@@ -447,8 +419,7 @@ header {
   color: #454545;
   display: block;
   text-decoration: none;
-  text-shadow: -1px 1px 1px #a5a5a5;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#a5a5a5, Direction=135, Strength=4);
+  text-shadow: -1px 1px 1px #a5a5a5; 
   text-align: right;
   margin: 14px 13px 0 0;
 }
@@ -503,14 +474,12 @@ header {
   font: 48px/38px "LeagueGothic-Regular", sans-serif;
   color: #454545;
   text-shadow: 0px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
 }
 
 .end {
   font: 48px/38px "LeagueGothic-Regular", sans-serif;
   color: #b9b9b9;
   text-shadow: 0px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
 }
 
 .art__2, .art__3 {
@@ -518,14 +487,12 @@ header {
   color: #454545;
   padding-bottom: 16px;
   text-shadow: 1px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
 }
 
 .art__copyrigt {
   font: 16px/48px "Georgia Italic", sans-serif;
   color: #c8c8c8;
   text-shadow: 1px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
 }
 
 .art__p {
@@ -533,7 +500,6 @@ header {
   color: #787878;
   word-break: break-all;
   text-shadow: 0px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
   padding-right: 63px;
 }
 
@@ -542,7 +508,6 @@ header {
   color: #787878;
   word-break: break-all;
   text-shadow: 0px 1px 1px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
   padding-right: 0px;
 }
 
@@ -562,7 +527,7 @@ footer {
 
 .footer_menu {
   padding-top: 44px;
-  width: 55%;
+  width: 55%; 
 }
 
 .footer_menu__item {
@@ -572,8 +537,7 @@ footer {
   float: left;
   font-size: 20px;
   padding-left: 43px;
-  text-shadow: 2px 2px 1px #4b494e;
-  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#fff, Direction=135, Strength=4);
+  text-shadow: 2px 2px 1px #4b494e;  
 }
 
 .footer_menu__item:first-child {
