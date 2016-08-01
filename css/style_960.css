@@ -64,34 +64,42 @@ header {
 
 /*----------------TOP MENU-----------*/
 
-.mini_menu {
-  display: none;
+.wrapper {
+  padding: 72px 0 0 167px;
+  display: inline-block;
+  vertical-align: top; 
 }
 
 .menu {
-  padding: 72px 0 0 170px;
-  display: inline-block;
-
-}
-
-.menu__item {
-  list-style: none;
-  float: left;
+  font-family: "LeagueGothic-Regular", sans-serif;
   text-transform: uppercase;
   font-size: 24px;
-  font-family: "LeagueGothic-Regular", sans-serif;
-  padding-left: 52px;
+}
+
+.menu__ul--h {
+  list-style: none;
+  width: 100%;
+}
+
+.menu__item--h {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 19px;
   text-shadow: 2px 2px 1px #5e5762;  
 }
 
-.menu__item:first-child {
-  padding-left: 0px;
+.menu__item--h:first-child {
+  padding-left: -0px;
+}
+.menu__item--h:last-child {
+  padding-right: 0px;
+  margin: 0px;
 }
 
 .menu__link {
   color: #ffffff;
-  display: block;
   text-decoration: none;
+  padding: 0 4px 0 4px;
   height: 100%;
 }
 
@@ -103,13 +111,14 @@ header {
 .menu__link-line {
   text-decoration: none;
   color: #ffffff;
+  padding: 0 5px 0 5px;
   border-bottom: 2px solid #edbfff;
 }
 
 /*----------------SLIDER-----------*/
 
 .slider {
-  margin-top: 166px;
+  margin-top: 168px;
   height: 400px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.2);
@@ -150,7 +159,7 @@ header {
   width: 30%;
   display: inline-block; 
   margin-top: -17px;
-  margin-left: 106px;
+  margin-left: 108px;
 }
 
 /*----------------SLIDER NAV-----------*/
@@ -509,7 +518,8 @@ footer {
   background-image: url(../img/bgfooter.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: inherit;
+  background-color: #ececec;
   box-shadow: 0px 3px 10px #47464f inset;
 }
 

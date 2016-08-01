@@ -18,8 +18,7 @@
   src: url("../fonts/Georgia Italic.ttf");
 }
 
-
-/*----------------768px-----------*/
+/*----------------480px-----------*/
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -62,11 +61,7 @@ header {
 
 /*----------------TOP GAMBURGER MENU-----------*/
 
-.menu {
-  display: none;
-}
-
-.mini_menu {
+.menu--v {
   position: absolute;
   width: 246px;
   top: 129px;
@@ -80,13 +75,13 @@ header {
   z-index: 1;
 }
 
-.mini_menu:hover {
+.menu--v:hover {
   background-color: rgba(54,41,62, 0.9);
   border: 1px solid #051116;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-.mini_menu__active {
+.menu__item--active {
   height: 47px;
   box-sizing: border-box;
   border-top: 1px solid transparent;
@@ -95,12 +90,12 @@ header {
   text-align: center;
 }
 
-.mini_menu:hover .mini_menu__active {
+.menu--v:hover .menu__item--active {
   border-top: 1px solid #614a6b;
   border-bottom: 1px solid #36283e;
 }
 
-.mini_menu__active a{
+.menu__item--activ .menu__link, .menu__link-line {
   padding: 14px 5px 4px 5px;
   display: inline-block;
   border-bottom: 2px solid #edbfff;
@@ -108,16 +103,20 @@ header {
   color: #fff;
 }
 
-.mini_menu__submenu {
+.menu__ul--v .menu__item--submenu {
   display: none;
   list-style: none;
 }
 
-.mini_menu:hover .mini_menu__submenu {
+.menu__ul--v .menu__item--active {
+   list-style: none;
+}
+
+.menu__ul--v:hover .menu__item--submenu {
   display: block;
 }
 
-.mini_menu__submenu a{
+.menu__ul--v .menu__link {
   display: block;
   position: relative;
   height: 42px;
@@ -131,11 +130,11 @@ header {
   overflow: hidden;
 }
 
-.mini_menu__submenu a:hover {
-    background-color: rgba(0,0,0,0.3);
+.menu__item--submenu .menu__link:hover {
+  background-color: rgba(0,0,0,0.3);
 }
 
-.mini_menu__submenu a::after {
+.menu__item--submenu .menu__link::after {
   content: '';
   display: block;
   width: 100%;
@@ -143,15 +142,15 @@ header {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: #edbfff;
+  background-color: #fff;
   opacity: 0;
 }
 
-.mini_menu__submenu a:hover:after {
+.menu__item--submenu .menu__link:hover:after {
   opacity: 1;
 }
 
-.mini_menu__submenu .mini_menu__item:last-child a{
+.menu__item--submenu:last-child .menu__link{
   border-bottom: 0;
   border-radius: 0 0 10px 10px;
 }
@@ -348,8 +347,7 @@ header {
   background-color: #fff;
   width: 416px;
   height: 273px;
-  margin: 0 auto;
-  margin-top: 68px;
+  margin: 68px 0 0 36px;
   box-shadow: 0px 2px 10px #efefef;
 }
 

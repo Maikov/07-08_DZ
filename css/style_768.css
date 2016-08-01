@@ -43,14 +43,13 @@ header {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: initial;
+  background-size: inherit;
   background-color: #ececec;
   border-bottom: 1px solid #33253a; 
 }
 
 .container {
   width: 768px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -60,37 +59,38 @@ header {
 
 /*----------------TOP MENU-----------*/
 
-.mini_menu {
-  display: none;
+.wrapper {
+  margin: 29px 0 0 18px;
 }
 
 .menu {
-  padding: 29px 0 0 18px;
-}
-
-.menu__item {
-  list-style: none;
-  float: left;
+  font-family: "LeagueGothic-Regular", sans-serif;
   text-transform: uppercase;
   font-size: 24px;
-  font-family: "LeagueGothic-Regular", sans-serif;
-  padding-left: 52px;
+}
+
+.menu__ul--h {
+  list-style: none;
+  width: 100%;
+}
+
+.menu__item--h {
+  display: inline-block;
+  padding-left: 48px;
   text-shadow: 2px 2px 1px #5e5762;  
 }
 
-.menu__item:first-child {
+.menu__item--h:first-child {
   padding-left: 0px;
 }
 
 .menu__link {
   color: #ffffff;
-  display: block;
   text-decoration: none;
   height: 100%;
 }
 
 .menu__link:hover {
-  color: #ffffff;
   border-bottom: 2px solid #edbfff;
 }
 
@@ -103,7 +103,8 @@ header {
 /*----------------SLIDER-----------*/
 
 .slider {
-  margin-top: 104px;
+  position: relative;
+  margin-top: 76px;
   height: 400px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.2);
@@ -144,7 +145,7 @@ header {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  margin: -23px 0 0 130px;
+  margin: -23px 0 0 124px;
 }
 
 /*----------------SLIDER NAV-----------*/
